@@ -17,8 +17,13 @@ body {
     padding: 0;
 }
 
+ul {
+    padding: 0;
+}
+
 li {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -39,7 +44,6 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    border: 2px solid red;
     height: inherit;
     margin: 0;
     padding: 0;
@@ -66,4 +70,10 @@ a {
 .sub-menu {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
+    display: none;
+}
+
+.sub-menu li a {
+    color: red;
 }
